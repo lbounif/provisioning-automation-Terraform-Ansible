@@ -4,12 +4,13 @@ Objective: To automate the deployment and configuration of infrastructure in AWS
 
 Requirements:
 
-Infrastructure as Code (IaC): Use Terraform to create and manage AWS infrastructure components, such as VPC, subnets, route tables, security groups, and EC2 instances.
-Configuration Management: Use Ansible to perform post-deployment configuration tasks on the provisioned instances.
-Automated Key Management: Generate and manage SSH key pairs dynamically using Terraform to ensure secure communication between master and worker nodes.
-Parameterization: Utilize variables in Terraform to enable reusable and flexible configurations.
-Integration of Tools: Seamlessly integrate Terraform and Ansible to ensure smooth provisioning and configuration processes.
-Remote AWS Access: Use the AWS CLI to set up access credentials for automated remote infrastructure management.
+- Infrastructure as Code (IaC): Use Terraform to create and manage AWS infrastructure components, such as VPC, subnets, route tables, security groups, and EC2 instances.
+- Configuration Management: Use Ansible to perform post-deployment configuration tasks on the provisioned instances.
+- Automated Key Management: Generate and manage SSH key pairs dynamically using Terraform to ensure secure communication between master and worker nodes.
+- Parameterization: Utilize variables in Terraform to enable reusable and flexible configurations.
+- Integration of Tools: Seamlessly integrate Terraform and Ansible to ensure smooth provisioning and configuration processes.
+- Remote AWS Access: Use the AWS CLI to set up access credentials for automated remote infrastructure management.
+![screenshot](imageFolder/screenshot.png)
 
 Solution
 Configure Terraform with new ssh key which will be used as key pair for launching VMs 
