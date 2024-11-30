@@ -29,6 +29,7 @@ Configure Terraform with new ssh key which will be used as key pair for launchin
 - Go to Worker node (AWS VM): # echo "<give your public key>" >> ~/.ssh/authorized_keys
 - We can create an inventory file and playbook and check if SSH connection is working or not
 - We copy the public IP of the worker node in myinvenory file the we execute a command: # ansible -i  ~/myinventory all -m ping
+  ![screenshot](images/ansi-connexion.png)
 - We create an AMI from the worker node EC2 instance
 
 - Configure AWS CLI with access key and secret key to establish connection remotely  
@@ -46,6 +47,16 @@ After the project configuration of users and ssh keys:
 - we create a file aws_infra.tf
 - Then write a command : #terraform init
 - Then write a command : #terraform apply
+  ![screenshot](images/exec5.png)
+  ![screenshot](images/exec4.png)
+  ![screenshot](images/exec3.png)
+  ![screenshot](images/exec2.png)
+  ![screenshot](images/exec-1.png)
+  ![screenshot](images/execution.png)
+  This the the project-instance EC2 node created on AWS
+  ![screenshot](images/project-instance.png)
+  Theses are packages installed on the instance project EC2: Java and Maven
+   ![screenshot](images/installed-packages.png)
 
 
 
