@@ -1,0 +1,19 @@
+- hosts: localhost
+  become: true   
+  tasks:
+  - name: Update Repo
+    command: apt-get update
+  - name: Install Java
+    package: name=openjdk-11-jdk state=present
+  - name: Install Maven
+    package: name=maven state=present
+  - name: Show Java version
+    command: java -version
+    register: javaversion
+  - name: Print Java version
+    debug: var=javaversion
+  - name: Show Maven version
+    command: mvn -version
+    register: mvnversion
+  - name: Print Maven version
+    debug: var=mvnversion
