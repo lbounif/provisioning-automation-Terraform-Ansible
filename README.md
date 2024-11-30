@@ -1,8 +1,8 @@
 # Provisioning and Configuration Management Using Terraform and Ansible
 
-Objective: To automate the deployment and configuration of infrastructure in AWS using Terraform for provisioning and Ansible for configuration management. The solution involves creating a sandbox environment with essential AWS resources, using Terraform to provision the infrastructure, and leveraging Ansible for post-deployment tasks.
+## Objective: To automate the deployment and configuration of infrastructure in AWS using Terraform for provisioning and Ansible for configuration management. The solution involves creating a sandbox environment with essential AWS resources, using Terraform to provision the infrastructure, and leveraging Ansible for post-deployment tasks.
 
-Requirements:
+## Requirements:
 
 - Infrastructure as Code (IaC): Use Terraform to create and manage AWS infrastructure components, such as VPC, subnets, route tables, security groups, and EC2 instances.
 - Configuration Management: Use Ansible to perform post-deployment configuration tasks on the provisioned instances.
@@ -12,7 +12,7 @@ Requirements:
 - Remote AWS Access: Use the AWS CLI to set up access credentials for automated remote infrastructure management.
 ![screenshot](images/new-archi.png)
 
-Solution
+## Solution
 Configure Terraform with new ssh key which will be used as key pair for launching VMs 
 - We Open DevOps Lab which will be the master node( where Ansible and Terraform operates)
 - Switch to Root user using command : sudo su -
