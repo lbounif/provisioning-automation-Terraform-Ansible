@@ -47,17 +47,16 @@ After the project configuration of users and ssh keys:
 - we create a file aws_infra.tf
 - Then write a command : #terraform init
 - Then write a command : #terraform apply
-  ![screenshot](images/exec.png)
-  ![screenshot](images/exec9.png)
-  ![screenshot](images/exec8.png)
-  ![screenshot](images/exec7.png)
-  ![screenshot](images/exec6.png)
-  ![screenshot](images/exec5.png)
-  ![screenshot](images/exec4.png)
-  ![screenshot](images/exec3.png)
-  ![screenshot](images/exec2.png)
-  ![screenshot](images/exec-1.png)
-  ![screenshot](images/execution.png)
+  ![screenshot](images/exe1.png)
+  ![screenshot](images/exe2.png)
+  ![screenshot](images/exe3.png)
+  ![screenshot](images/exe4.png)
+  ![screenshot](images/exe5.png)
+  ![screenshot](images/exe6.png)
+  ![screenshot](images/exe7.png)
+  ![screenshot](images/exe8.png)
+  ![screenshot](images/exe9.png)
+  ![screenshot](images/exe10.png)
   This the the project-instance EC2 node created on AWS
   ![screenshot](images/project-instance.png)
   Theses are packages installed on the instance project EC2: Java and Maven
