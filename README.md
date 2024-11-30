@@ -1,4 +1,4 @@
-#Provisioning and Configuration Management Using Terraform and Ansible
+# Provisioning and Configuration Management Using Terraform and Ansible
 
 Objective: To automate the deployment and configuration of infrastructure in AWS using Terraform for provisioning and Ansible for configuration management. The solution involves creating a sandbox environment with essential AWS resources, using Terraform to provision the infrastructure, and leveraging Ansible for post-deployment tasks.
 
