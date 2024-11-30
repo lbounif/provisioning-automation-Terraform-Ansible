@@ -10,7 +10,7 @@ Requirements:
 - Parameterization: Utilize variables in Terraform to enable reusable and flexible configurations.
 - Integration of Tools: Seamlessly integrate Terraform and Ansible to ensure smooth provisioning and configuration processes.
 - Remote AWS Access: Use the AWS CLI to set up access credentials for automated remote infrastructure management.
-![screenshot](imageFolder/screenshot.png)
+![screenshot](images/archi.png)
 
 Solution
 Configure Terraform with new ssh key which will be used as key pair for launching VMs 
