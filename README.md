@@ -47,6 +47,11 @@ After the project configuration of users and ssh keys:
 - we create a file aws_infra.tf
 - Then write a command : #terraform init
 - Then write a command : #terraform apply
+  ![screenshot](images/exec.png)
+  ![screenshot](images/exec9.png)
+  ![screenshot](images/exec8.png)
+  ![screenshot](images/exec7.png)
+  ![screenshot](images/exec6.png)
   ![screenshot](images/exec5.png)
   ![screenshot](images/exec4.png)
   ![screenshot](images/exec3.png)
