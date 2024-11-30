@@ -10,12 +10,12 @@ Requirements:
 - Parameterization: Utilize variables in Terraform to enable reusable and flexible configurations.
 - Integration of Tools: Seamlessly integrate Terraform and Ansible to ensure smooth provisioning and configuration processes.
 - Remote AWS Access: Use the AWS CLI to set up access credentials for automated remote infrastructure management.
-![screenshot](images/archi.png)
+![screenshot](images/new-archi.png)
 
 Solution
 Configure Terraform with new ssh key which will be used as key pair for launching VMs 
 - We Open DevOps Lab which will be the master node( where Ansible and Terraform operates)
-- Switch to Root user using command sudo su -
+- Switch to Root user using command : sudo su -
 - We create a new user called ansiuser and make it a sudo user by adding it in file /etc/sudoers
 - Switch to ansiuser using the command : su - ansiuser
 - Generate SSH key for ansiuser: ssh-keygen
